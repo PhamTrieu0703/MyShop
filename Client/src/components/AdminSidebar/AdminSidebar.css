@@ -1,0 +1,18 @@
+.admin-sidebar {
+  width: 220px;
+  height: 150vh;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.admin-sidebar a {
+  display: block;
+  color: #fff;
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+.admin-sidebar a:hover {
+  color: #00ffcc;
+}

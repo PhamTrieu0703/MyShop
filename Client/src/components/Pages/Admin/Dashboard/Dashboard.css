@@ -1,0 +1,64 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.revenue { background: #e3fcef; }
+.orders { background: #e8f0fe; }
+.completed { background: #d1fae5; }
+.pending { background: #fef3c7; }
+.cancelled { background: #fee2e2; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+}
+.chart-section {
+  margin: 40px 0;
+}
+
+.chart-filter {
+  margin-bottom: 15px;
+}
+
+.chart-filter button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+
+.status.completed { background: green; }
+.status.pending { background: orange; }
+.status.cancelled { background: red; }
+.status.shipping { background: blue; }

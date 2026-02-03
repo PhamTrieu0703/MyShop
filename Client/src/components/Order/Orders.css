@@ -1,0 +1,61 @@
+.orders-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-item {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.order-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.order-footer {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+}
+
+.status.pending {
+  background: orange;
+}
+.status.confirmed {
+  background: blue;
+}
+.status.shipping {
+  background: purple;
+}
+.status.completed {
+  background: green;
+}
+.status.cancelled {
+  background: red;
+}

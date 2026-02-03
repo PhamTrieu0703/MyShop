@@ -1,0 +1,118 @@
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 10px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+/* Menu */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #4f46e5;
+}
+
+/* Search */
+.search-box input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  width: 220px;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cart-header {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.login {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login:hover {
+  background: #4338ca;
+}
+
+.user-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.username {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.username:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background: white;
+  color: #111;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.user-dropdown div {
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.user-dropdown div:hover {
+  background-color: #f1f5f9;
+}
+.user-dropdown .logout {
+  color: #e53935;
+}

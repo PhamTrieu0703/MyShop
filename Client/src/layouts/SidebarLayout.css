@@ -1,0 +1,9 @@
+.sidebar-layout {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+
+.sidebar-content {
+  flex: 1;
+}
