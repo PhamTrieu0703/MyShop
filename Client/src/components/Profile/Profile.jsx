@@ -78,7 +78,6 @@ function Profile() {
 
       <div className="profile-box">
         <p><b>Username:</b> {user.username}</p>
-        <p><b>Role:</b> {user.role}</p>
 
         <div className="form-group">
           <label>Họ tên</label>
